@@ -56,13 +56,14 @@ function Navbar({ onShowDetails }) {
         border="0"
         className="img-logo"
       />
-      <img
-        src="https://i.ibb.co/55RxPYk/info-icon.png"
-        alt="info-icon"
-        border="0"
-        className="img-info-icon"
-        onClick={onShowDetails}
-      />
+      <a href="https://github.com/shrutilicensed/OIBSIP/tree/todo-app/react-todoapp#readme">
+        <img
+          src="https://i.ibb.co/55RxPYk/info-icon.png"
+          alt="info-icon"
+          border="0"
+          className="img-info-icon"
+        />{" "}
+      </a>
     </div>
   );
 }

@@ -38,6 +38,7 @@ ul::-webkit-scrollbar {
   justify-content: space-between;
 }
 
+a,
 .img-info-icon {
   width: 2rem;
   height: 2rem;
