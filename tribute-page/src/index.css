@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Barlow Condensed", sans-serif;
+  background-color: rgba(57, 61, 65, 255);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header-image {
+  min-width: 1366px;
+  max-width: 1920px;
+  width: 1536px;
+}
+
+.special-heading {
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  font-size: 4.8rem;
+
+  /* color: #000000; */
+  color: #ea931a;
+  /* -webkit-text-stroke: 1px #ea931a; */
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 6rem;
+}
+
+.image-about-section {
+  width: 27.5625rem;
+  height: 35.1875rem;
+}
+
+.about-text {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
